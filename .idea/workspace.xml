@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8f5af1-dbe0-44df-b90f-b103b7a93b13" name="Changes" comment="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that.">
+    <list default="true" id="6d8f5af1-dbe0-44df-b90f-b103b7a93b13" name="Changes" comment="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that. Added sql databases.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_driver_jars.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-driver-jars/mysql-connector-java-8.0.27-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-driver-jars/mysql-connector-java-8.0.27.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo3.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +39,20 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="22gjGpI7IRwT6ecfgoXELq81ouJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/sketch.it" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysql-driver-jars" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
@@ -69,9 +77,9 @@
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../.jdks/openjdk-17.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-17.0.1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo3.HelloApplication" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="demo3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643218492723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that. Added sql databases.">
+      <created>1643220086323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643220086323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,8 +125,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that." />
+    <MESSAGE value="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that. Added sql databases." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial project commit. There is a bug that print halls function happens in a loop. need to fix that. Added sql databases." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
